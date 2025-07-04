@@ -1,0 +1,123 @@
+@charset "UTF-8";
+
+/*
+    CSS Archive by: @arthurferreira-dev
+    LICENSE: Creative Commons v1.0
+
+    ------  -----   -----                   -----
+    |    |  |   |     |     |    |  |    |  |   |
+    |----|  |---\     |     |----|  |    |  |---\
+    |    |  |    \    |     |    |  |____|  |    \
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap'); /* (Font) Inter by: Google Fonts */
+
+:root {
+    --inter: 'Inter', Verdana, Helvetica, sans-serif, Arial;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--inter);
+    height: 100%;
+    width: 100%;
+    font-size: 1em;
+    background-color: #f28c6b;
+    color: #fff;
+}
+
+/* Skeletonz */
+
+header {
+    background-color: #d47555;
+    padding: 6.5px;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+main {
+    background-color: #d77c5e;
+    padding: 8px;
+    width: 80%;
+    margin: auto;
+    border-top-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+h2#title {
+    margin-bottom: 6px;
+}
+
+footer {
+    padding: 6.5px;
+    text-align: center;
+    background-color: #cb6e4f;
+    margin-top: 12px;
+}
+
+/* Default */
+
+a, abbr {
+    text-decoration: none;
+}
+
+a {
+    transition-duration: .40s;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ol, ul {
+    list-style-type: none;
+    list-style: none;
+}
+
+span#html {
+    color: #f33d00;
+}
+
+span#html-five {
+    color: #ca4113;
+}
+
+.center {
+    text-align: center;
+}
+
+.justify {
+    text-align: justify;
+}
+
+button {
+    display: block;
+    margin: auto;
+    border: none;
+    padding: 6.5px;
+    font-size: 0.95em;
+    text-align: center;
+}
+
+button#start-btn {
+    background-color: #5c2bc8;
+    border-radius: 8px;
+    transition-duration: .40s;
+}
+
+button#start-btn > a {
+    color: #fff;
+}
+
+button#start-btn > a:hover {
+    text-decoration: none;
+}
+
+button#start-btn:hover {
+    background-color: #5628ba;
+}
