@@ -53,6 +53,10 @@ h2#title {
     margin-bottom: 6px;
 }
 
+p#p1 {
+    margin-bottom: 8.5px;
+}
+
 footer {
     padding: 6.5px;
     text-align: center;
@@ -102,12 +106,12 @@ button {
     padding: 6.5px;
     font-size: 0.95em;
     text-align: center;
+    transition-duration: .40s;
 }
 
 button#start-btn {
     background-color: #5c2bc8;
     border-radius: 8px;
-    transition-duration: .40s;
 }
 
 button#start-btn > a {
